@@ -1,0 +1,165 @@
+------------------------------------------------------------
+
+Name: georgebrown.ca
+Internationalized Domain Name: georgebrown.ca
+Registry Domain ID: D121739-CIRA
+Domain Status:
+clientTransferProhibited
+
+Nameservers:
+ns1.d-zone.ca
+
+ns1.georgebrown.ca
+
+ns2.d-zone.ca
+
+ns2.georgebrown.ca
+
+Dates
+Registry Expiration: 2026-07-04 04:00:00 UTC
+Registrar Expiration: 2026-07-04 07:00:00 UTC
+Updated: 2026-01-15 16:03:54 UTC
+Created: 2002-07-04 08:35:23 UTC
+
+
+------------------------------------------------------------
+
+Name: bestbuy.ca
+Internationalized Domain Name: bestbuy.ca
+Registry Domain ID: D228248-CIRA
+Domain Status:
+clientDeleteProhibited
+
+clientTransferProhibited
+
+clientUpdateProhibited
+
+serverDeleteProhibited
+
+serverTransferProhibited
+
+serverUpdateProhibited
+
+Nameservers:
+asia3.akam.net
+
+eur1.akam.net
+
+eur2.akam.net
+
+ns1-118.akam.net
+
+ns1-119.akam.net
+
+usc2.akam.net
+
+use1.akam.net
+
+usw2.akam.net
+
+Dates
+Registry Expiration: 2027-06-11 04:00:00 UTC
+Updated: 2025-06-11 04:03:55 UTC
+Created: 2000-10-17 19:41:32 UTC
+
+------------------------------------------------------------
+
+Name: shoppers.ca
+Internationalized Domain Name: shoppers.ca
+Registry Domain ID: D64680-CIRA
+Domain Status:
+clientDeleteProhibited
+
+clientTransferProhibited
+
+clientUpdateProhibited
+
+Nameservers:
+ns1.easyhosting.com
+
+ns2.easyhosting.com
+
+ns3.easyhosting.com
+
+ns4.easyhosting.com
+
+Dates
+Registry Expiration: 2027-02-01 05:00:00 UTC
+Updated: 2025-09-28 02:20:30 UTC
+Created: 2001-02-01 17:05:03 UTC
+
+------------------------------------------------------------
+
+Name: AMAZON.COM
+Registry Domain ID: 281209_DOMAIN_COM-VRSN
+Domain Status:
+clientDeleteProhibited
+
+clientTransferProhibited
+
+clientUpdateProhibited
+
+serverDeleteProhibited
+
+serverTransferProhibited
+
+serverUpdateProhibited
+
+Nameservers:
+NS1.AMZNDNS.CO.UK
+
+NS1.AMZNDNS.COM
+
+NS1.AMZNDNS.NET
+
+NS1.AMZNDNS.ORG
+
+NS2.AMZNDNS.CO.UK
+
+NS2.AMZNDNS.COM
+
+NS2.AMZNDNS.NET
+
+NS2.AMZNDNS.ORG
+
+Dates
+Registry Expiration: 2026-10-31 04:00:00 UTC
+Registrar Expiration: 2026-10-31 04:00:00 UTC
+Updated: 2025-07-31 17:49:55 UTC
+Created: 1994-11-01 05:00:00 UTC
+
+------------------------------------------------------------
+
+Name: MARRIOTT.COM
+Registry Domain ID: 4708375_DOMAIN_COM-VRSN
+Domain Status:
+clientTransferProhibited
+
+serverDeleteProhibited
+
+serverTransferProhibited
+
+serverUpdateProhibited
+
+Nameservers:
+EUR1.AKAM.NET
+
+EUR3.AKAM.NET
+
+EUR4.AKAM.NET
+
+NS1-22.AKAM.NET
+
+NS1-7.AKAM.NET
+
+USC1.AKAM.NET
+
+USC2.AKAM.NET
+
+USE4.AKAM.NET
+
+Dates
+Registry Expiration: 2027-01-04 05:00:00 UTC
+Registrar Expiration: 2027-01-04 05:00:00 UTC
+Updated: 2025-12-31 06:03:38 UTC
+Created: 1993-01-05 05:00:00 UTC

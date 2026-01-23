@@ -1,0 +1,57 @@
+canadacomputers.com
+
+ IP:	52.233.38.251
+ Country:	 Canada
+ State:	Ontario
+ City:	Toronto
+ Latitude:	43.6536
+ Longitude:	-79.3829
+ ISP:	Microsoft Corporation
+
+-------------------------------
+
+gamestop.com
+
+IP:	3.168.73.63
+ Country:	 United States of America
+ State:	New York
+ City:	New York City
+ Latitude:	40.7131
+ Longitude:	-74.0060
+ ISP:	Amazon.com Inc.
+
+-------------------------------
+
+canadagoose.com
+
+IP:	69.172.201.100
+ Country:	 United States of America
+ State:	California
+ City:	Los Angeles
+ Latitude:	34.0525
+ Longitude:	-118.2439
+ ISP:	DOSarrest Internet Security Ltd
+
+-------------------------------
+
+mooseknucklescanada.com
+
+IP:	23.227.38.65
+ Country:	 Canada
+ State:	Ontario
+ City:	Ottawa
+ Latitude:	45.4111
+ Longitude:	-75.6979
+ ISP:	Shopify Inc.
+
+-------------------------------
+
+lululemon.com
+
+ IP:	23.216.132.77
+ Country:	 United States of America
+ State:	New York
+ City:	New York City
+ Latitude:	40.7131
+ Longitude:	-74.0060
+ ISP:	Akamai Technologies Inc.
