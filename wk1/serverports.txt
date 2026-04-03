@@ -1,0 +1,26 @@
+1. What is the definition of server port?
+
+Answer: A server port is a logical, numerical identifier (0–65535) used in networking to direct incoming data to a specific application or service on a server. It functions as an endpoint for communication, allowing multiple services—like web traffic (80/443) or email (25)—to run simultaneously on a single IP address
+
+2. What is server port range?
+
+Answer: A server port range defines the numerical spectrum (0 to 65535) used to identify specific network services or processes on a computer, facilitating communication by directing traffic to the correct application. These 16-bit numbers are split into three categories—system (0–1023), registered (1024–49151), and dynamic (49152–65535)—that distinguish between standard services, application-specific, and temporary client connections.
+
+3. How many bits does number above represent?
+
+Answer: 16 bits
+
+4. State 10 common server ports
+
+Answer: 
+    1. Port 80 (HTTP): The standard for unencrypted web traffic used to transfer web pages between a server and a browser.
+    2. Port 443 (HTTPS): The secure version of HTTP. It uses SSL/TLS encryption for activities like online banking and e-commerce.
+    3. Port 53 (DNS): Acts like the internet's phonebook, translating human-readable domain names (e.g., google.com) into IP addresses.
+    4. Port 22 (SSH): Used for secure remote access to servers, commonly by system administrators to manage Linux systems via a command line.
+    5. Port 3389 (RDP): Microsoft's proprietary protocol that allows users to remotely connect to and control a Windows computer with a graphical interface.
+    6. Port 23 (Telnet): An older, unencrypted method for remote login. It is rarely used today due to security risks but remains a standard "well-known" port.
+    7. Port 25 (SMTP): The primary port used by email servers to route and send mail between one another.
+    8. Port 143 (IMAP): Used by email clients to retrieve and manage messages while keeping them synced on the server.
+    9. Port 21 (FTP): The standard port for transferring files between a client and a server.
+    10. Port 3306 (MySQL): The default port for connecting to MySQL and MariaDB databases, which power many modern websites.
+
