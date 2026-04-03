@@ -1,0 +1,203 @@
+root@comp3134-Winter2026:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+03:56:28.664369 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2617375683:2617375727, ack 1573747218, win 581, length 44
+03:56:28.664447 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 44:160, ack 1, win 581, length 116
+03:56:28.669097 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [.], ack 160, win 509, length 0
+03:56:28.684022 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1:37, ack 160, win 509, length 36
+03:56:28.684226 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 160:196, ack 37, win 581, length 36
+03:56:28.715847 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 37:73, ack 196, win 508, length 36
+03:56:28.716040 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 196:232, ack 73, win 581, length 36
+03:56:28.744977 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 73:109, ack 232, win 508, length 36
+03:56:28.745151 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 232:268, ack 109, win 581, length 36
+03:56:28.776116 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 109:145, ack 268, win 508, length 36
+03:56:28.776299 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 268:304, ack 145, win 581, length 36
+03:56:28.807250 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 145:181, ack 304, win 508, length 36
+03:56:28.807447 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 304:340, ack 181, win 581, length 36
+03:56:28.838518 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 181:217, ack 340, win 508, length 36
+03:56:28.838703 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 340:376, ack 217, win 581, length 36
+03:56:28.869743 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 217:253, ack 376, win 508, length 36
+03:56:28.869923 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 376:412, ack 253, win 581, length 36
+03:56:28.900857 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 253:289, ack 412, win 508, length 36
+03:56:28.901087 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 412:448, ack 289, win 581, length 36
+03:56:28.932612 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 289:325, ack 448, win 507, length 36
+03:56:28.932841 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 448:484, ack 325, win 581, length 36
+03:56:28.964764 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 325:361, ack 484, win 507, length 36
+03:56:28.964987 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 484:520, ack 361, win 581, length 36
+03:56:28.995518 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 361:397, ack 520, win 507, length 36
+03:56:28.995718 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 520:556, ack 397, win 581, length 36
+03:56:29.026114 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 397:433, ack 556, win 507, length 36
+03:56:29.026323 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 556:592, ack 433, win 581, length 36
+03:56:29.057227 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 433:469, ack 592, win 507, length 36
+03:56:29.057410 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 592:628, ack 469, win 581, length 36
+03:56:29.089633 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 469:505, ack 628, win 507, length 36
+03:56:29.089841 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 628:664, ack 505, win 581, length 36
+03:56:29.120858 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 505:541, ack 664, win 507, length 36
+03:56:29.121063 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 664:700, ack 541, win 581, length 36
+03:56:29.151362 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 541:577, ack 700, win 506, length 36
+03:56:29.151558 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 700:736, ack 577, win 581, length 36
+03:56:29.182501 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 577:613, ack 736, win 506, length 36
+03:56:29.182689 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 736:772, ack 613, win 581, length 36
+03:56:29.214127 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 613:649, ack 772, win 506, length 36
+03:56:29.214310 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 772:808, ack 649, win 581, length 36
+03:56:29.244134 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 649:685, ack 808, win 506, length 36
+03:56:29.244342 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 808:844, ack 685, win 581, length 36
+03:56:29.275242 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 685:721, ack 844, win 506, length 36
+03:56:29.275436 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 844:880, ack 721, win 581, length 36
+03:56:29.306509 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 721:757, ack 880, win 511, length 36
+03:56:29.306706 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 880:916, ack 757, win 581, length 36
+03:56:29.336899 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 757:793, ack 916, win 511, length 36
+03:56:29.337120 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 916:952, ack 793, win 581, length 36
+03:56:29.368128 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 793:829, ack 952, win 511, length 36
+03:56:29.368346 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 952:988, ack 829, win 581, length 36
+03:56:29.399863 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 829:865, ack 988, win 511, length 36
+03:56:29.400119 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 988:1024, ack 865, win 581, length 36
+03:56:29.430804 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 865:901, ack 1024, win 511, length 36
+03:56:29.431019 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1024:1060, ack 901, win 581, length 36
+03:56:29.475674 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 901:937, ack 1060, win 511, length 36
+03:56:29.475924 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1060:1096, ack 937, win 581, length 36
+03:56:29.522567 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [.], ack 1096, win 511, length 0
+03:56:29.537404 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 937:973, ack 1096, win 511, length 36
+03:56:29.537631 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1096:1132, ack 973, win 581, length 36
+03:56:29.582510 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [.], ack 1132, win 511, length 0
+03:56:29.598258 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 973:1009, ack 1132, win 511, length 36
+03:56:29.598449 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1132:1168, ack 1009, win 581, length 36
+03:56:29.645763 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [.], ack 1168, win 510, length 0
+03:56:29.662000 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1009:1045, ack 1168, win 510, length 36
+03:56:29.662182 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1168:1204, ack 1045, win 581, length 36
+03:56:29.708445 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [.], ack 1204, win 510, length 0
+03:56:29.724865 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1045:1081, ack 1204, win 510, length 36
+03:56:29.725062 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1204:1240, ack 1081, win 581, length 36
+03:56:29.770104 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [.], ack 1240, win 510, length 0
+03:56:29.785508 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1081:1117, ack 1240, win 510, length 36
+03:56:29.785712 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1240:1276, ack 1117, win 581, length 36
+03:56:29.831660 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [.], ack 1276, win 510, length 0
+03:56:29.847235 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1117:1153, ack 1276, win 510, length 36
+03:56:29.847421 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1276:1312, ack 1153, win 581, length 36
+03:56:29.893923 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1153:1189, ack 1312, win 510, length 36
+03:56:29.894103 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1312:1348, ack 1189, win 581, length 36
+03:56:29.925109 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1189:1225, ack 1348, win 510, length 36
+03:56:29.925286 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1348:1384, ack 1225, win 581, length 36
+03:56:29.956883 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1225:1261, ack 1384, win 510, length 36
+03:56:29.957082 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1384:1420, ack 1261, win 581, length 36
+03:56:29.988778 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1261:1297, ack 1420, win 509, length 36
+03:56:29.988958 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1420:1456, ack 1297, win 581, length 36
+03:56:30.019270 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1297:1333, ack 1456, win 509, length 36
+03:56:30.019468 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1456:1492, ack 1333, win 581, length 36
+03:56:30.049806 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1333:1369, ack 1492, win 509, length 36
+03:56:30.050042 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1492:1528, ack 1369, win 581, length 36
+03:56:30.080846 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1369:1405, ack 1528, win 509, length 36
+03:56:30.081055 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1528:1564, ack 1405, win 581, length 36
+03:56:30.112657 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1405:1441, ack 1564, win 509, length 36
+03:56:30.112866 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1564:1600, ack 1441, win 581, length 36
+03:56:30.143045 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1441:1477, ack 1600, win 509, length 36
+03:56:30.143247 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1600:1636, ack 1477, win 581, length 36
+03:56:30.173651 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1477:1513, ack 1636, win 509, length 36
+03:56:30.173841 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1636:1672, ack 1513, win 581, length 36
+03:56:30.204175 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1513:1549, ack 1672, win 508, length 36
+03:56:30.204366 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1672:1708, ack 1549, win 581, length 36
+03:56:30.235285 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1549:1585, ack 1708, win 508, length 36
+03:56:30.235519 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1708:1744, ack 1585, win 581, length 36
+03:56:30.267151 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1585:1621, ack 1744, win 508, length 36
+03:56:30.267383 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1744:1780, ack 1621, win 581, length 36
+03:56:30.298278 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1621:1657, ack 1780, win 508, length 36
+03:56:30.298484 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1780:1816, ack 1657, win 581, length 36
+03:56:30.328012 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1657:1693, ack 1816, win 508, length 36
+03:56:30.328250 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1816:1852, ack 1693, win 581, length 36
+03:56:30.359973 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1693:1729, ack 1852, win 508, length 36
+03:56:30.360194 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1852:1888, ack 1729, win 581, length 36
+03:56:30.390512 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1729:1765, ack 1888, win 508, length 36
+03:56:30.390736 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1888:1924, ack 1765, win 581, length 36
+03:56:30.422149 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1765:1801, ack 1924, win 507, length 36
+03:56:30.422350 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1924:1960, ack 1801, win 581, length 36
+03:56:30.453538 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1801:1837, ack 1960, win 507, length 36
+03:56:30.453756 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1960:1996, ack 1837, win 581, length 36
+03:56:30.484553 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1837:1873, ack 1996, win 507, length 36
+03:56:30.484733 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1996:2032, ack 1873, win 581, length 36
+03:56:30.515765 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1873:1909, ack 2032, win 507, length 36
+03:56:30.516103 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2032:2068, ack 1909, win 581, length 36
+03:56:30.546225 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1909:1945, ack 2068, win 507, length 36
+03:56:30.546403 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2068:2104, ack 1945, win 581, length 36
+03:56:30.578049 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1945:1981, ack 2104, win 507, length 36
+03:56:30.578222 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2104:2140, ack 1981, win 581, length 36
+03:56:30.608394 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1981:2017, ack 2140, win 507, length 36
+03:56:30.608578 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2140:2176, ack 2017, win 581, length 36
+03:56:30.638918 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2017:2053, ack 2176, win 506, length 36
+03:56:30.639110 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2176:2212, ack 2053, win 581, length 36
+03:56:30.670043 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2053:2089, ack 2212, win 506, length 36
+03:56:30.670233 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2212:2248, ack 2089, win 581, length 36
+03:56:30.700657 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2089:2125, ack 2248, win 506, length 36
+03:56:30.700857 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2248:2284, ack 2125, win 581, length 36
+03:56:30.733013 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2125:2161, ack 2284, win 506, length 36
+03:56:30.733201 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2284:2320, ack 2161, win 581, length 36
+03:56:30.764868 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2161:2197, ack 2320, win 506, length 36
+03:56:30.765065 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2320:2356, ack 2197, win 581, length 36
+03:56:30.794625 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2197:2233, ack 2356, win 511, length 36
+03:56:30.794806 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2356:2392, ack 2233, win 581, length 36
+03:56:30.824491 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2233:2269, ack 2392, win 511, length 36
+03:56:30.824693 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2392:2428, ack 2269, win 581, length 36
+03:56:30.857630 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2269:2305, ack 2428, win 511, length 36
+03:56:30.857818 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2428:2464, ack 2305, win 581, length 36
+03:56:30.887545 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2305:2341, ack 2464, win 511, length 36
+03:56:30.887770 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2464:2500, ack 2341, win 581, length 36
+03:56:30.918628 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2341:2377, ack 2500, win 511, length 36
+03:56:30.918822 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2500:2536, ack 2377, win 581, length 36
+03:56:30.950122 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2377:2413, ack 2536, win 511, length 36
+03:56:30.950334 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2536:2572, ack 2413, win 581, length 36
+03:56:30.981220 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2413:2449, ack 2572, win 511, length 36
+03:56:30.981452 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2572:2608, ack 2449, win 581, length 36
+03:56:31.012015 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2449:2485, ack 2608, win 511, length 36
+03:56:31.012244 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2608:2644, ack 2485, win 581, length 36
+03:56:31.042503 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2485:2521, ack 2644, win 510, length 36
+03:56:31.042708 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2644:2680, ack 2521, win 581, length 36
+03:56:31.073863 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2521:2557, ack 2680, win 510, length 36
+03:56:31.074094 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2680:2716, ack 2557, win 581, length 36
+03:56:31.104880 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2557:2593, ack 2716, win 510, length 36
+03:56:31.105091 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2716:2752, ack 2593, win 581, length 36
+03:56:31.135478 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2593:2629, ack 2752, win 510, length 36
+03:56:31.135676 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2752:2788, ack 2629, win 581, length 36
+03:56:31.166533 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2629:2665, ack 2788, win 510, length 36
+03:56:31.166755 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2788:2824, ack 2665, win 581, length 36
+03:56:31.198288 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2665:2701, ack 2824, win 510, length 36
+03:56:31.198512 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2824:2860, ack 2701, win 581, length 36
+03:56:31.230762 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2701:2737, ack 2860, win 510, length 36
+03:56:31.230972 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2860:2896, ack 2737, win 581, length 36
+03:56:31.260630 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2737:2773, ack 2896, win 509, length 36
+03:56:31.260852 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2896:2932, ack 2773, win 581, length 36
+03:56:31.291893 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 2773:2809, ack 2932, win 509, length 36
+03:56:31.292111 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2932:2968, ack 2809, win 581, length 36
+03:56:31.337644 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [.], ack 2968, win 509, length 0
+03:56:32.673837 IP 143.110.240.17.42700 > comp3134-Winter2026.ssh: Flags [S], seq 3162753600, win 64240, options [mss 1460,sackOK,TS val 4263672148 ecr 0,nop,wscale 7], length 0
+03:56:32.673915 IP comp3134-Winter2026.ssh > 143.110.240.17.42700: Flags [S.], seq 3376347942, ack 3162753601, win 65160, options [mss 1460,sackOK,TS val 22874298 ecr 4263672148,nop,wscale 7], length 0
+03:56:32.958268 IP 143.110.240.17.42700 > comp3134-Winter2026.ssh: Flags [.], ack 1, win 502, options [nop,nop,TS val 4263672433 ecr 22874298], length 0
+03:56:32.972109 IP comp3134-Winter2026.ssh > 143.110.240.17.42700: Flags [P.], seq 1:44, ack 1, win 510, options [nop,nop,TS val 22874597 ecr 4263672433], length 43: SSH: SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.15
+03:56:32.986052 IP 143.110.240.17.42700 > comp3134-Winter2026.ssh: Flags [P.], seq 1:13, ack 1, win 502, options [nop,nop,TS val 4263672461 ecr 22874298], length 12: SSH: SSH-2.0-Go
+03:56:32.986105 IP comp3134-Winter2026.ssh > 143.110.240.17.42700: Flags [.], ack 13, win 510, options [nop,nop,TS val 22874611 ecr 4263672461], length 0
+03:56:33.256420 IP 143.110.240.17.42700 > comp3134-Winter2026.ssh: Flags [.], ack 44, win 502, options [nop,nop,TS val 4263672731 ecr 22874597], length 0
+03:56:33.256487 IP comp3134-Winter2026.ssh > 143.110.240.17.42700: Flags [P.], seq 44:1164, ack 13, win 510, options [nop,nop,TS val 22874881 ecr 4263672731], length 1120
+03:56:33.424275 IP 143.110.240.17.42700 > comp3134-Winter2026.ssh: Flags [P.], seq 13:1133, ack 44, win 502, options [nop,nop,TS val 4263672899 ecr 22874611], length 1120
+03:56:33.424324 IP comp3134-Winter2026.ssh > 143.110.240.17.42700: Flags [.], ack 1133, win 533, options [nop,nop,TS val 22875049 ecr 4263672899], length 0
+03:56:33.540657 IP 143.110.240.17.42700 > comp3134-Winter2026.ssh: Flags [.], ack 1164, win 525, options [nop,nop,TS val 4263673015 ecr 22874881], length 0
+03:56:33.702921 IP 143.110.240.17.42700 > comp3134-Winter2026.ssh: Flags [P.], seq 1133:1181, ack 1164, win 525, options [nop,nop,TS val 4263673178 ecr 22874881], length 48
+03:56:33.702991 IP comp3134-Winter2026.ssh > 143.110.240.17.42700: Flags [.], ack 1181, win 533, options [nop,nop,TS val 22875327 ecr 4263673178], length 0
+03:56:33.708134 IP comp3134-Winter2026.ssh > 143.110.240.17.42700: Flags [P.], seq 1164:1736, ack 1181, win 533, options [nop,nop,TS val 22875333 ecr 4263673178], length 572
+03:56:33.992287 IP 143.110.240.17.42700 > comp3134-Winter2026.ssh: Flags [.], ack 1736, win 543, options [nop,nop,TS val 4263673467 ecr 22875333], length 0
+03:56:34.141864 IP 143.110.240.17.42700 > comp3134-Winter2026.ssh: Flags [P.], seq 1181:1197, ack 1736, win 543, options [nop,nop,TS val 4263673616 ecr 22875333], length 16
+03:56:34.143693 IP 143.110.240.17.42700 > comp3134-Winter2026.ssh: Flags [P.], seq 1197:1249, ack 1736, win 543, options [nop,nop,TS val 4263673618 ecr 22875333], length 52
+03:56:34.143889 IP comp3134-Winter2026.ssh > 143.110.240.17.42700: Flags [.], ack 1249, win 533, options [nop,nop,TS val 22875768 ecr 4263673616], length 0
+03:56:34.144011 IP comp3134-Winter2026.ssh > 143.110.240.17.42700: Flags [P.], seq 1736:1788, ack 1249, win 533, options [nop,nop,TS val 22875769 ecr 4263673616], length 52
+03:56:34.428093 IP 143.110.240.17.42700 > comp3134-Winter2026.ssh: Flags [.], ack 1788, win 543, options [nop,nop,TS val 4263673903 ecr 22875769], length 0
+03:56:34.428094 IP 143.110.240.17.42700 > comp3134-Winter2026.ssh: Flags [P.], seq 1249:1317, ack 1788, win 543, options [nop,nop,TS val 4263673903 ecr 22875769], length 68
+03:56:34.429202 IP comp3134-Winter2026.ssh > 143.110.240.17.42700: Flags [P.], seq 1788:1840, ack 1317, win 533, options [nop,nop,TS val 22876054 ecr 4263673903], length 52
+03:56:34.714789 IP 143.110.240.17.42700 > comp3134-Winter2026.ssh: Flags [P.], seq 1317:1401, ack 1840, win 543, options [nop,nop,TS val 4263674189 ecr 22876054], length 84
+03:56:34.755013 IP comp3134-Winter2026.ssh > 143.110.240.17.42700: Flags [.], ack 1401, win 533, options [nop,nop,TS val 22876380 ecr 4263674189], length 0
+03:56:36.013349 IP 172.69.214.2.13347 > comp3134-Winter2026.http: Flags [S], seq 2561972956, win 65535, options [mss 1460,sackOK,TS val 3797549233 ecr 0,nop,wscale 13], length 0
+03:56:36.114132 IP carthage.scan.bufferover.run.47904 > comp3134-Winter2026.7885: Flags [S], seq 3815860360, win 65535, options [mss 1460], length 0
+03:56:37.059414 IP 172.69.214.2.13347 > comp3134-Winter2026.http: Flags [S], seq 2561972956, win 65535, options [mss 1460,sackOK,TS val 3797550280 ecr 0,nop,wscale 13], length 0
+03:56:38.083444 IP 172.69.214.2.13347 > comp3134-Winter2026.http: Flags [S], seq 2561972956, win 65535, options [mss 1460,sackOK,TS val 3797551304 ecr 0,nop,wscale 13], length 0
+03:56:38.538170 IP comp3134-Winter2026.ssh > 143.110.240.17.42700: Flags [P.], seq 1840:1892, ack 1401, win 533, options [nop,nop,TS val 22880163 ecr 4263674189], length 52
+03:56:38.862911 IP 143.110.240.17.42700 > comp3134-Winter2026.ssh: Flags [.], ack 1892, win 543, options [nop,nop,TS val 4263678338 ecr 22880163], length 0
+03:56:38.885071 IP 143.110.240.17.42700 > comp3134-Winter2026.ssh: Flags [F.], seq 1401, ack 1892, win 543, options [nop,nop,TS val 4263678360 ecr 22880163], length 0
+03:56:38.886938 IP comp3134-Winter2026.ssh > 143.110.240.17.42700: Flags [F.], seq 1892, ack 1402, win 533, options [nop,nop,TS val 22880511 ecr 4263678360], length 0
+03:56:39.107375 IP 172.69.214.2.13347 > comp3134-Winter2026.http: Flags [S], seq 2561972956, win 65535, options [mss 1460,sackOK,TS val 3797552328 ecr 0,nop,wscale 13], length 0
+03:56:39.171164 IP 143.110.240.17.42700 > comp3134-Winter2026.ssh: Flags [.], ack 1893, win 543, options [nop,nop,TS val 4263678646 ecr 22880511], length 0
+root@comp3134-Winter2026:~#

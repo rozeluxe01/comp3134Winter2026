@@ -1,0 +1,13 @@
+root@comp3134-Winter2026:~# tcpdump -c 6 -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+03:52:06.089237 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2590983723:2590983911, ack 1573661994, win 513, length 188
+03:52:06.089292 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 188:224, ack 1, win 513, length 36
+03:52:06.093989 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [.], ack 224, win 252, length 0
+03:52:06.111024 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1:37, ack 224, win 252, length 36
+03:52:06.111216 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 224:260, ack 37, win 513, length 36
+03:52:06.142350 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 37:73, ack 260, win 252, length 36
+6 packets captured
+17 packets received by filter
+0 packets dropped by kernel
+root@comp3134-Winter2026:~#

@@ -1,0 +1,86 @@
+root@comp3134-Winter2026:~# tcpdump -A -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+03:53:43.802353 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2594794195:2594794383, ack 1573696306, win 513, length 188
+E...G$@.@.....-BF3.....$..j.]..2P........8!A6..&..7.].~(..zCg...!..Y..#{.?X.g^..=..T.WG...m..>..T...S..^.U....'.....Q.h.....#.m./C.=.!.$A.jU.|@"....9.Dn.:.S,....5)     Ud..m.d_.,.!....E..C*...f.....>.R>.!B.:.?\..8...&....TP..)=..'.y
+03:53:43.823299 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 1:37, ack 188, win 251, length 36
+E(.LG^@.s..AF3....-B.$..]..2..k.P....;......O....qVX..(..uk..... .. ..5...h.
+03:53:43.823541 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 188:224, ack 37, win 513, length 36
+E..LG%@.@.....-BF3.....$..k.]..VP...."..j..=?..":i.... .....F..o....y......D
+03:53:43.854742 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 37:73, ack 224, win 251, length 36
+E(.LG_@.s..@F3....-B.$..]..V..k.P....x..*\d.)..9.a$a...?.....L.}.D2!NJ.Iv|u.
+03:53:43.854933 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 224:260, ack 73, win 513, length 36
+E..LG&@.@.....-BF3.....$..k.]..zP....".....xT..rN}.D>.`....n1....L.W4[x.7.b.
+03:53:43.884705 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 73:109, ack 260, win 250, length 36
+E(.LG`@.s..?F3....-B.$..]..z..k.P.......>|............J. .FS)k....G30..;.+p.
+03:53:43.884890 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 260:296, ack 109, win 513, length 36
+E..LG'@.@.....-BF3.....$..k.]...P...."...)...k0e.J..........!<...0.6.r...*..
+03:53:43.905732 IP comp3134-Winter2026.34534 > 67.207.67.2.domain: 9595+ [1au] PTR? 139.215.51.70.in-addr.arpa. (55)
+E..S.J..@.8Y..-BC.C....5.?ZG%{...........139.215.51.70.in-addr.arpa.......)........
+03:53:43.905969 IP comp3134-Winter2026.42214 > 67.207.67.3.domain: Flags [S], seq 4081531664, win 64240, options [mss 1460,sackOK,TS val 2516703840 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+E..@l.@.@.t...-BC.C....5.G;.........Z*.........
+...`........"...
+03:53:43.906262 IP comp3134-Winter2026.42495 > 67.207.67.2.domain: 16672+ [1au] PTR? 66.45.227.165.in-addr.arpa. (55)
+E..S.2..@..q..-BC.C....5.?ZGA ...........66.45.227.165.in-addr.arpa.......)........
+03:53:43.908049 IP 67.207.67.3.domain > comp3134-Winter2026.42214: Flags [S.], seq 1371097422, ack 4081531665, win 65160, options [mss 1460,sackOK,TS val 2086443309 ecr 2516703840,nop,wscale 10], length 0
+E..<..@.<...C.C...-B.5..Q.IN.G;................
+|\.-...`...
+
+03:53:43.908109 IP comp3134-Winter2026.42214 > 67.207.67.3.domain: Flags [.], ack 1, win 502, options [nop,nop,TS val 2516703843 ecr 2086443309], length 0
+E..4l.@.@.t...-BC.C....5.G;.Q.IO....Z......
+...c|\.-
+03:53:43.908147 IP comp3134-Winter2026.42214 > 67.207.67.3.domain: Flags [P.], seq 1:47, ack 1, win 502, options [nop,nop,TS val 2516703843 ecr 2086443309], length 46 27974+ PTR? 139.215.51.70.in-addr.arpa. (44)
+E..bl.@.@.s...-BC.C....5.G;.Q.IO....ZL.....
+...c|\.-.,mF...........139.215.51.70.in-addr.arpa.....
+03:53:43.908224 IP 67.207.67.2.domain > comp3134-Winter2026.34534: 9595 1/0/1 PTR bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca. (123)
+E...i...<..YC.C...-B.5.....J%{...........139.215.51.70.in-addr.arpa.............P..8*bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca...)........
+03:53:43.909379 IP 67.207.67.3.domain > comp3134-Winter2026.42214: Flags [.], ack 47, win 64, options [nop,nop,TS val 2086443311 ecr 2516703843], length 0
+E..4..@.<...C.C...-B.5..Q.IO.G;?...@'......
+|\./...c
+03:53:43.909507 IP 67.207.67.3.domain > comp3134-Winter2026.42214: Flags [P.], seq 1:115, ack 47, win 64, options [nop,nop,TS val 2086443311 ecr 2516703843], length 114 27974 1/0/0 PTR bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca. (112)
+E.....@.<...C.C...-B.5..Q.IO.G;?...@    3.....
+|\./...c.pmF...........139.215.51.70.in-addr.arpa.............QD.8*bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.
+03:53:43.909531 IP comp3134-Winter2026.42214 > 67.207.67.3.domain: Flags [.], ack 115, win 502, options [nop,nop,TS val 2516703844 ecr 2086443311], length 0
+E..4l.@.@.t...-BC.C....5.G;?Q.I.....Z......
+...d|\./
+03:53:43.916878 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 109:145, ack 296, win 250, length 36
+E(.LGa@.s..>F3....-B.$..].....k.P...........Y.N6.`S.g..R.:      &........V}......
+03:53:43.917104 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 296:332, ack 145, win 513, length 36
+E..LG(@.@.....-BF3.....$..k.]...P...."........AR.d....n......(...^.......HSp
+03:53:43.937022 IP 67.207.67.2.domain > comp3134-Winter2026.42495: 16672 NXDomain 0/1/1 (122)
+E....h..<...C.C...-B.5....E.A ...........66.45.227.165.in-addr.arpa................7.ns1.digitalocean.com.
+hostmaster..i.=...*0.....       :.......)........
+03:53:43.938110 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 332:552, ack 145, win 513, length 220
+E...G)@.@.....-BF3.....$..l.]...P.......pQ..~._..W.C......=o..uv...l......GFio$j."w..."6.....}}......q..U.....@.!la.pI.O....g.L.$.r...uO.4.u.dU3l..4.H.m..v..+.....h..e..]:ut._..@..Q.B...#.?(. ..Nf....]#.     "       .i.....0..".k...x.1.^.g....4........[a  4...Y.u..
+Xv...
+03:53:43.938532 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 552:1924, ack 145, win 513, length 1372
+E...G*@.@..U..-BF3.....$..l.]...P....Z...G.A...8..'p)......l.**Kr.l..7v2.r.r.~.....d4.K.O.<..t:F...1.+.....H..1.....OR...k6..pJ..t.#.7+...0-.k5...hY(i......sN.(...>..Lr%..z9....6...d8*;..g........0.U95..U...[.g.
+.E............7.R[v..Z.n.)...G2...={...!...;.X+o........3.. ...V6>c.x...x.(.;.Z.{.Ag#.&+...N1....]..b.....*..9..nr...L.@...7IC..`c.H....@Ht.....
+B4.gQi d.x.X)..Q...E.!..;...k.tb,.....j.2.g..aU..l.ju.....dR.._.E...X...=[..........%.m......c|._M.Kd...\q.+.L.s5..fO..5....C.V..0.._..........{...L.....t....3..1@....>rZpu`D.`.2....f......ei...?.....A.....M.IG....  ....<....u-.W}.H..W@..,......S....$....../Rp\   ?W^.B..!a....VY.D.$     .Bco..IH......).Z..L..../...j.a.?...$p..Y.zzL........p.....Q....p<3Y..Ib..h........e.S...#.l.<X..{..d...x....8.)-...#3....b.?.....3C.
+Xx?.3..`......33.XK.#.D..4,.iH...wpr.:...c.q......k+.w09"..A..&.~........#...a...#u......m..=.m...".IZ..#.).8...,..;........s.....!'.Q1.&IS...#.O.-7k../..B.n.K.5H.E%`i.t0.k..Q..W.....9........}X..H....9....75.......y<.....*o?QK.."sLw.-..1/..C.o.|h....F."...#..p-..b.O..AT..{..H.$..T.....^....%#.......f..IVzL..).....#.w^.Uz.#B..V'.&.1..%.C.8.l...B..3...................y....0..o....[....{..f.l.Q..k..............\.....q.~.0....B.dIF)...%...*.1gV...M..D*w.g..TB...4.O'.]\...).Z..Xr<.........Fh..3B..[Rp..ad2...W_.Do..i..V..+.....jn:Y.....v:..<.#..H!.   .H.....o.....'..'/Y$....0.G....J...}...x.M(......@...D...M...Z*....N...W....R.S.t;.'`&%58
+03:53:43.938667 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 1924:2280, ack 145, win 513, length 356
+E...G+@.@..M..-BF3.....$..rW]...P....b..o.....F..+x.1I..c`!....1NjB.(2..&4u#...%......U..[....&DI.Q....y.Z............Bd"b....fU.1.YC...0....3...r..:.z...X..z.r...<.]m..@.....2...f...3!.`.{.4..KL........K...y.MG.
+p'..(...e....C.6.h.Z<...d1!;W@..G..oQ....../.....F..>.b'T....&{..iz.r$.QvN.w*..q..z7.&i...z.X..?. l.... 4 .R}.......ni.........`%p......s...G.e%..R.....}.[...#F..Q.:gB.\..{..C.*.o..VU
+03:53:43.942659 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [.], ack 552, win 255, length 0
+E(.(Gb@.s..aF3....-B.$..].....l.P.............
+03:53:43.942659 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [.], ack 2280, win 255, length 0
+E(.(Gc@.s..`F3....-B.$..].....s.P.............
+03:53:43.943546 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 145:181, ack 2280, win 255, length 36
+E(.LGd@.s..;F3....-B.$..].....s.P....}..Y.Bi.Y.Lb.f..   ..h.E.+. ..!.xY=....    .
+03:53:43.943724 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2280:2316, ack 181, win 513, length 36
+E..LG,@.@.....-BF3.....$..s.]...P...."...GC.iL{.l.......86@....j.#uQ...).!?Z
+03:53:43.963227 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 181:217, ack 2316, win 255, length 36
+E(.LGe@.s..:F3....-B.$..].....s.P...x...a...........h..z.U.......@.5.*..W...
+03:53:43.963429 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2316:2352, ack 217, win 513, length 36
+E..LG-@.@.....-BF3.....$..s.]..
+P...."..Y.z?    .T....]a.~...\...R.."2.`...V...
+03:53:43.994880 IP bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964 > comp3134-Winter2026.ssh: Flags [P.], seq 217:253, ack 2352, win 255, length 36
+E(.LGf@.s..9F3....-B.$..]..
+..t.P...............T.Y...b8v.BCXq...@#.........
+03:53:43.995097 IP comp3134-Winter2026.ssh > bras-base-toroon3520w-grc-08-70-51-215-139.dsl.bell.ca.60964: Flags [P.], seq 2352:2388, ack 253, win 513, length 36
+E..LG.@.@.....-BF3.....$..t.]...P...."...".....lzD....-[\;.A....Aq......\.;.
+^C
+31 packets captured
+67 packets received by filter
+0 packets dropped by kernel
+root@comp3134-Winter2026:~#
